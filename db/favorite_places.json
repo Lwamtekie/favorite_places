@@ -1,0 +1,104 @@
+{
+    "Places": [
+        {
+            "id": "city1",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "favoriteRestaurant": "Simon Pearce glass blowing factory ",
+            "favoriteBar": "The Skinny Pancake",
+            "favoriteHotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id": "city2",
+            "cityName": "MID-OHIO VALLEY",
+            "cityState": "West Virginia",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7_IBXrq4S06T3WoZcHro0emh9iwll46CJsW-1l3_dirRZBPpy",
+            "Restaurant": "Boathouse BBQ",
+            "Bar": "Bar at the Guesthouse",
+            "Hotel": "The Blennerhassett Hotel",
+            "TouristAttraction": "Robey Theatre"
+        },
+        {
+            "id": "city3",
+            "cityName": "Virginia Beach",
+            "cityState": "Virginia",
+            "imageUrl": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_50,w_1400/v1/clients/virginiabeachva/144_3_3064_jpeg_4ee70d04-57aa-4362-9a82-ed3fa50804e6.jpg",
+            "Restaurant": "McCormick & Schmick's",
+            "Bar": "Bags&Beats",
+            "Hotel": "Surfbreak Oceanfront Hotel",
+            "TouristAttraction": "Virginia Aquarium and Marine Science Center"
+        },
+        {
+            "id":"city4",
+            "cityName": "Yosemite National Park",
+            "cityState": "California",
+            "imageUrl": "https://www.connect.media/wp-content/uploads/2018/09/yosemite.jpg",
+            "Restaurant": "Big Trees Lodge Dining Room",
+            "Bar": "Half Dome Village Bar",
+            "Hotel": "Yosemite Valley Lodging",
+            "TouristAttraction": "Sierra Mac River Trips"
+        },
+        {
+            "id": "city5",
+            "cityName": "",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id": "city6",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id": "city7",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id": "city8",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id": "city9",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        },
+        {
+            "id":"city10",
+            "cityName": "Quechee",
+            "cityState": "VERMONT",
+            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
+            "TouristAttraction": "QuecheeGorge"
+        }
+    ]
+}
