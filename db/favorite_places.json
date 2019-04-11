@@ -5,9 +5,9 @@
             "cityName": "Quechee",
             "cityState": "VERMONT",
             "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "favoriteRestaurant": "Simon Pearce glass blowing factory ",
-            "favoriteBar": "The Skinny Pancake",
-            "favoriteHotel": "506 On The River Inn",
+            "Restaurant": "Simon Pearce glass blowing factory ",
+            "Bar": "The Skinny Pancake",
+            "Hotel": "506 On The River Inn",
             "TouristAttraction": "QuecheeGorge"
         },
         {
@@ -42,63 +42,63 @@
         },
         {
             "id": "city5",
-            "cityName": "",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Taos",
+            "cityState": "New Mexico",
+            "imageUrl": "http://2.bp.blogspot.com/-7MKxLlfct3E/UQTlD4JiF1I/AAAAAAAAANQ/XlSSSc95s_s/s1600/Taos-Pueblo-4767.jpg",
+            "Restaurant": "Byzantium",
+            "Bar": "Anaconda Bar",
+            "Hotel": "Taos Valley Lodge",
+            "TouristAttraction": "Taos Pueblo"
         },
         {
             "id": "city6",
-            "cityName": "Quechee",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Coeur d'Alene",
+            "cityState": " Idaho",
+            "imageUrl": "https://thumbs.trulia-cdn.com/pictures/thumbs_6/zillowstatic/IS2rpsoxdei8151000000000.jpg",
+            "Restaurant": "Texas Roadhouse",
+            "Bar": "Paddy's Sports Bar",
+            "Hotel": "The Coeur d'Alene Resort",
+            "TouristAttraction": "Lake Coeur d'Alene"
         },
         {
             "id": "city7",
-            "cityName": "Quechee",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Asheville",
+            "cityState": "North Carolina",
+            "imageUrl": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,q_75,w_500/http://res.cloudinary.com/simpleview/image/upload/v1439998008/clients/asheville/Asheville_AMeripol190_0293d139-045b-479b-a5a9-361e3b0cc32d.jpg",
+            "Restaurant": "Chestnut",
+            "Bar": "5 Walnut Wine Bar",
+            "Hotel": "Asheville Cabins of Willow Winds",
+            "TouristAttraction": "Blue Heron Whitewater"
         },
         {
             "id": "city8",
-            "cityName": "Quechee",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Sugar Hill",
+            "cityState": "",
+            "imageUrl": "https://static1.squarespace.com/static/555b3eeee4b0163880f9e2ed/t/55ad54c4e4b07cbac06b5694/1437426764221/DSCN1822.JPG?format=2500w",
+            "Restaurant": "Polly's Pancake Parlor",
+            "Bar": "The InkWell Coffee & Tea House",
+            "Hotel": "The Village Of Loon Mountain",
+            "TouristAttraction": "Cannon Mountain Aerial Tramway"
         },
         {
             "id": "city9",
-            "cityName": "Quechee",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Eureka Springs",
+            "cityState": " Arkansas",
+            "imageUrl": "https://s-ec.bstatic.com/images/hotel/max1024x768/927/92768687.jpg",
+            "Restaurant": "Ermilio's Italian Home Cooking",
+            "Bar": "Eureka Live",
+            "Hotel": "Cliff Cottage Inn",
+            "TouristAttraction": "Thorncrown Chapel"
         },
         {
             "id":"city10",
-            "cityName": "Quechee",
-            "cityState": "VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
-            "Restaurant": "Simon Pearce glass blowing factory ",
-            "Bar": "The Skinny Pancake",
-            "Hotel": "506 On The River Inn",
-            "TouristAttraction": "QuecheeGorge"
+            "cityName": "Aspen",
+            "cityState": "Colorado",
+            "imageUrl": "https://www.colorado.com/sites/default/files/styles/1000x685/public/001_DowntownAspen.jpg?itok=fP84F9wm",
+            "Restaurant": "Element 47",
+            "Bar": "J-Bar",
+            "Hotel": "The St. Regis Aspen Resort",
+            "TouristAttraction": "John Denver Sanctuary"
         }
     ]
 }
