@@ -1,0 +1,16 @@
+body {
+    background-color: blanchedalmond;
+}
+
+
+.card-header{
+    text-align: center
+    
+}
+
+.card-img-top{
+   padding: 20rem;
+}
+.list-group{
+    text-align: center;
+}
