@@ -11,8 +11,8 @@ const domStringBuilder = (arrayToPrint) => {
   arrayToPrint.forEach((place) => {
     domString += '<div class="col-4 product">';
     domString +=   `<div class="card">`;
-    domString +=   `  <div class="card-header">${cityName}</div>`;
-    domString +=   `  <div class="card-header">${cityState}</div>`;
+    domString +=   `  <div class="card-header">${place.cityName}</div>`;
+    domString +=   `  <div class="card-header">${place.cityState}</div>`;
     domString +=   `  <img src=${place.imageUrl} class="card-img-top" alt="...">`;
     domString +=   `  <div class="card-body">`;
     domString += `        <ul class="list-group list-group-flush">`;
@@ -34,8 +34,9 @@ const domStringBuilder = (arrayToPrint) => {
 
 function executeThisCodeAfterFileLoads(){
   const data = JSON.parse(this.responseText);
-  places = data.place;
-  domStringBuilder(data.places);
+  let places = data.Places;
+  
+  domStringBuilder(places);
 }
 
 function executeThisCodeifXHRFails(){
@@ -46,12 +47,17 @@ const getRidesData = () => {
   const myRequest = new XMLHttpRequest();
   myRequest.addEventListener('load', executeThisCodeAfterFileLoads);
   myRequest.addEventListener('error', executeThisCodeifXHRFails);
-  myRequest.open('GET', './db/places.json');
+  myRequest.open('GET', './db/favorite_places.json');
   myRequest.send();
 };
 
+
+
 const init = () => {
-  getPlacesData ();
+  getRidesData()
+ 
+ 
 };
+
 
 init();
