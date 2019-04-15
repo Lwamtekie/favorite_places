@@ -1,1 +1,1 @@
-#favorite_places
+This project is different form the pervious assignments, because all the data for favorite places is in Json file not in main.js. 
