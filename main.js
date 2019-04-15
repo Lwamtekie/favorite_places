@@ -9,25 +9,27 @@ const printToDom = (divId, textToPrint) => {
 const domStringBuilder = (arrayToPrint) => {
   let domString = '';
   arrayToPrint.forEach((place) => {
+    // 
+    
+   
     domString += '<div class="col-4 product">';
     domString +=   `<div class="card">`;
     domString +=   `  <div class="card-header">${place.cityName}</div>`;
-    domString +=   `  <div class="card-header">${place.cityState}</div>`;
-    domString +=   `  <img src=${place.imageUrl} class="card-img-top" alt="...">`;
+    domString +=   `  <img src=${place.imageUrl} class="image" alt="...">`;
     domString +=   `  <div class="card-body">`;
     domString += `        <ul class="list-group list-group-flush">`;
     domString += `          <li class="list-group-item">favorites</li>`;
     domString += `          <li class="list-group-item">${place.Restaurant}</li>`;
-    domString += `          <li class="list-group-item">${place.bar}</li>`;
+    domString += `          <li class="list-group-item">${place.Bar}</li>`;
     domString += `          <li class="list-group-item">${place.Hotel}</li>`;
-    domString += `        </ul>`;
-    domString += `      </div>`;
-    domString +=   `    <p class="TouristAttraction">${place.TouristAttraction}</p>`;
-    domString +=   `  </div>`;
-    domString +=   `</div>`;
-    domString +=   `</div>`;
-    domString += '</div>';
+    domString += `          <li class="list-group-item">${place.TouristAttraction}</p>`;
+    domString += `          </ul>`
+    domString += `  </div>`;
+    domString += `  </div>`;
+    domString += `  </div>`;
+    domString += `  </div>`;
 
+    
   })
   printToDom('place-container', domString);
 };

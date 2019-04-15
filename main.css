@@ -1,16 +1,35 @@
 body {
-    background-color: blanchedalmond;
-}
+    background-color: rgba(201, 76, 76, 0.3);
+
+};
 
 
-.card-header{
-    text-align: center
+
+.image{
     
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 1200px;
+    height: 200px;
+    margin-top: 25px;
 }
 
-.card-img-top{
-   padding: 20rem;
-}
-.list-group{
+    .list-group{
     text-align: center;
 }
+.TouristAttraction{
+    text-align: center;
+}
+h1 {
+        font-size: 2.5rem;
+        text-align: -webkit-center;
+        font-style: italic;
+    }
+
+    .card-header {
+        padding: .75rem 1.25rem;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    
