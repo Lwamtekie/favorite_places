@@ -17,7 +17,7 @@ function executeThisCodeifXHRFails(){
   console.error('oh shit');
 }
 
-const getRidesData = () => {
+const getPlacesData = () => {
   const myRequest = new XMLHttpRequest();
   myRequest.addEventListener('load', executeThisCodeAfterFileLoads);
   myRequest.addEventListener('error', executeThisCodeifXHRFails);
@@ -30,12 +30,14 @@ const domStringBuilder = (arrayToPrint) => {
   let domString = '';
   arrayToPrint.forEach((place) => {
     // 
-    
    
+  
+    
     domString += '<div class="col-4 product">';
     domString +=   `<div class="card">`;
+    domString +=   `<div class="col order-last">`;
     domString +=   `  <div class="card-header">${place.cityName}</div>`;
-    domString +=   `  <img src=${place.imageUrl} class="image" alt="...">`;
+    domString +=   `  <img src="${place.imageUrl}">`;
     domString +=   `  <div class="card-body">`;
     domString += `        <ul class="list-group list-group-flush">`;
     domString += `          <li class="list-group-item">favorites</li>`;
@@ -48,7 +50,9 @@ const domStringBuilder = (arrayToPrint) => {
     domString += `  </div>`;
     domString += `  </div>`;
     domString += `  </div>`;
-
+    domString += `   </div>`;
+    domString += `   </div>`;
+    
     
   })
   printToDom('place-container', domString);
@@ -58,7 +62,7 @@ const domStringBuilder = (arrayToPrint) => {
 
 
 const init = () => {
-  getRidesData()
+  getPlacesData()
  
  
 };

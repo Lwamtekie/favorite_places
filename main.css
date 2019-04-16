@@ -4,48 +4,44 @@ body {
 };
 
 
-
-.image{
     
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    min-width: 200px;
-    height: 200px;
-    margin-top: 25px;
-}
 
-    .list-group{
-    text-align: center;
+
+.list-group{
+text-align: center;
 }
 .TouristAttraction{
-    text-align: center;
+text-align: center;
 }
 h1 {
-        font-size: 2.5rem;
-        text-align: -webkit-center;
-        font-style: italic;
-    }
+    font-size: 2.5rem;
+    text-align: -webkit-center;
+    font-style: italic;
+}
 
-    .card-header {
-        padding: .75rem 1.25rem;
-        margin-bottom: 0;
-        align-items: center;
-    }
-#place-container {
-    display: flex;
-    flex-flow: row wrap;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    justify-self: center;
-    -webkit-align-content: center;
-    align-content: center;
-    margin-right: 4rem;
-    margin-left: 8rem;
-    display: flex;
-   
-   align-items: center;
-   justify-content: center;
+
     
+
+.place-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    min-width: 1200px;
+    flex-grow: 0;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 } 
+.card-header{
+    justify-content: center
+    
+}
+
+.card{
+    margin: 15px;
+    border: 1px solid BLACK;
+    box-shadow: 1px 2px 2px 1px;
+    width: 400px;
+    padding: 0px;
+    -webkit-flex-flow: row wrap;
+  justify-content: space-around
+}
