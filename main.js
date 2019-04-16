@@ -6,6 +6,26 @@ const printToDom = (divId, textToPrint) => {
   selectedDiv.innerHTML = textToPrint;
 };
 
+function executeThisCodeAfterFileLoads(){
+  const data = JSON.parse(this.responseText);
+  let places = data.Places;
+  
+  domStringBuilder(places);
+}
+
+function executeThisCodeifXHRFails(){
+  console.error('oh shit');
+}
+
+const getRidesData = () => {
+  const myRequest = new XMLHttpRequest();
+  myRequest.addEventListener('load', executeThisCodeAfterFileLoads);
+  myRequest.addEventListener('error', executeThisCodeifXHRFails);
+  myRequest.open('GET', './db/favorite_places.json');
+  myRequest.send();
+};
+
+
 const domStringBuilder = (arrayToPrint) => {
   let domString = '';
   arrayToPrint.forEach((place) => {
@@ -34,24 +54,6 @@ const domStringBuilder = (arrayToPrint) => {
   printToDom('place-container', domString);
 };
 
-function executeThisCodeAfterFileLoads(){
-  const data = JSON.parse(this.responseText);
-  let places = data.Places;
-  
-  domStringBuilder(places);
-}
-
-function executeThisCodeifXHRFails(){
-  console.error('oh shit');
-}
-
-const getRidesData = () => {
-  const myRequest = new XMLHttpRequest();
-  myRequest.addEventListener('load', executeThisCodeAfterFileLoads);
-  myRequest.addEventListener('error', executeThisCodeifXHRFails);
-  myRequest.open('GET', './db/favorite_places.json');
-  myRequest.send();
-};
 
 
 

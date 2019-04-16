@@ -10,7 +10,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    min-width: 1200px;
+    min-width: 200px;
     height: 200px;
     margin-top: 25px;
 }
@@ -32,4 +32,16 @@ h1 {
         margin-bottom: 0;
         align-items: center;
     }
+#place-container {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    justify-self: center;
+    -webkit-align-content: center;
+    align-content: center;
+    margin-right: 4rem;
+    margin-left: 8rem;
     
+} 
