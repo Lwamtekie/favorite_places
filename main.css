@@ -18,25 +18,22 @@ h1 {
     text-align: -webkit-center;
     font-style: italic;
 }
+.cardImage {
+    height: 200px;
+    width: auto;
+    }
+    
 
 
     
 
-.place-container{
-    display: flex;
-    text-align: center;
-    flex-wrap: nowrap;
-    min-width: 1200px;
-    flex-grow: 0;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-} 
+
 .card-header{
     justify-content: center
     
 }
 
-.card{
+/* .card{
     margin: 15px;
     border: 1px solid BLACK;
     box-shadow: 1px 2px 2px 1px;
@@ -44,4 +41,4 @@ h1 {
     padding: 0px;
     -webkit-flex-flow: row wrap;
   justify-content: space-around
-}
+} */

@@ -6,14 +6,14 @@ const printToDom = (divId, textToPrint) => {
   selectedDiv.innerHTML = textToPrint;
 };
 
-function executeThisCodeAfterFileLoads(){
+function executeThisCodeAfterFileLoads() {
   const data = JSON.parse(this.responseText);
   let places = data.Places;
-  
+
   domStringBuilder(places);
 }
 
-function executeThisCodeifXHRFails(){
+function executeThisCodeifXHRFails() {
   console.error('oh shit');
 }
 
@@ -29,15 +29,10 @@ const getPlacesData = () => {
 const domStringBuilder = (arrayToPrint) => {
   let domString = '';
   arrayToPrint.forEach((place) => {
-    // 
-   
-  
-    
     domString += '<div class="col-4 product">';
     domString +=   `<div class="card">`;
-    domString +=   `<div class="col order-last">`;
     domString +=   `  <div class="card-header">${place.cityName}</div>`;
-    domString +=   `  <img src="${place.imageUrl}">`;
+    domString +=   `  <img src=${place.imageUrl} class="image" alt="...">`;
     domString +=   `  <div class="card-body">`;
     domString += `        <ul class="list-group list-group-flush">`;
     domString += `          <li class="list-group-item">favorites</li>`;
@@ -50,10 +45,8 @@ const domStringBuilder = (arrayToPrint) => {
     domString += `  </div>`;
     domString += `  </div>`;
     domString += `  </div>`;
-    domString += `   </div>`;
-    domString += `   </div>`;
-    
-    
+
+
   })
   printToDom('place-container', domString);
 };
@@ -63,8 +56,8 @@ const domStringBuilder = (arrayToPrint) => {
 
 const init = () => {
   getPlacesData()
- 
- 
+
+
 };
 
 
