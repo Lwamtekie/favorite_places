@@ -45,6 +45,10 @@ const domStringBuilder = (arrayToPrint) => {
     domString += `  </div>`;
     domString += `  </div>`;
     domString += `  </div>`;
+    
+    
+
+    
 
 
   })

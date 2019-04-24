@@ -1,44 +1,68 @@
-body {
+body{
     background-color: rgba(201, 76, 76, 0.3);
 
 };
 
-
-    
-
-
 .list-group{
-text-align: center;
+    text-align: center;
+
 }
-.TouristAttraction{
-text-align: center;
+.list-group-item{
+    background-color:papayawhip;
+    text-align: center;
 }
-h1 {
-    font-size: 2.5rem;
+
+
+h1{
+    font-size: 5rem;
     text-align: -webkit-center;
     font-style: italic;
 }
-.cardImage {
+img{
     height: 200px;
-    width: auto;
-    }
-    
-
-
-    
-
-
-.card-header{
-    justify-content: center
-    
 }
 
-/* .card{
+.title{
+    font-optical-sizing: 8rem;
+    align-items: center;
+    font-style: italic;
+}
+.card-header{
+    justify-content: center
+}
+
+.place-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    min-width: 600px;
+    flex-grow: 0;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    }
+
+.col-4{
     margin: 15px;
     border: 1px solid BLACK;
     box-shadow: 1px 2px 2px 1px;
-    width: 400px;
     padding: 0px;
     -webkit-flex-flow: row wrap;
-  justify-content: space-around
-} */
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5ppx;
+    margin-right: 5px;
+    max-width: 100%;
+    background-color: blanchedalmond;
+    align-content: center;
+} 
+
+.card{
+    background-color: papayawhip;
+}
+.flex-wrap{
+    justify-content: center;
+}
+
