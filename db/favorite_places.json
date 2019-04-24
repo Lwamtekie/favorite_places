@@ -3,16 +3,16 @@
         {
             "id": "city1",
             "cityName": "Quechee, VERMONT",
-            "imageUrl": "https://i.pinimg.com/originals/21/2d/af/212daf551737db73b6e542b5159b0ac0.jpg",
+            "imageUrl": "https://farm5.staticflickr.com/4096/4885427151_5e841ba024_b.jpg",
             "Restaurant": "Simon Pearce glass blowing factory Restaurant ",
             "Bar": "The Skinny Pancake Bar",
             "Hotel": "506 On The River Inn Hotel",
-            "TouristAttraction": " QuecheeGorge"
+            "TouristAttraction": "QuecheeGorge"
         },
         {
             "id": "city2",
             "cityName": "MID-OHIO VALLEY, West Virginia ",
-            "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/01/31/12/50/view-of-moundsville-prison.jpg",
+            "imageUrl": "https://www.planetware.com/photos-large/USWV/usa-west-virginia-penitentiary.jpg",
             "Restaurant": "Eatery: Boathouse BBQ Restaurant",
             "Bar": "Bar at the Guesthouse Bar",
             "Hotel": "The Blennerhassett Hotel",
@@ -21,7 +21,7 @@
         {
             "id": "city3",
             "cityName": "Virginia Beach, Virginia",
-            "imageUrl": "https://farm5.static.flickr.com/4450/37871484462_caaff3d218_b.jpg",
+            "imageUrl": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_50,w_740/v1/clients/virginiabeachva/144_3_2190_jpeg_82b41524-7f52-44b7-a113-cc0e9f4079fe.jpg",
             "Restaurant": "McCormick & Schmick's Restaurant",
             "Bar": "Bags&Beats Bar",
             "Hotel": "Surfbreak Oceanfront Hotel",
@@ -30,7 +30,7 @@
         {
             "id": "city4",
             "cityName": "Yosemite National Park, California",
-            "imageUrl": "http://i.imgur.com/XRpPoyN.jpg",
+            "imageUrl": "https://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/vc_ca101_nationalparks_yosemitenationalpark_mercedriver_rm_709117829_1280x640.jpg",
             "Restaurant": "Big Trees Lodge Dining Room Restaurant",
             "Bar": "Half Dome Village Bar",
             "Hotel": "Yosemite Valley Lodging Hotel",
@@ -75,7 +75,7 @@
         {
             "id": "city9",
             "cityName": "Eureka Springs, Arkansas",
-            "imageUrl": "https://s-ec.bstatic.com/images/hotel/max1024x768/927/92768687.jpg",
+            "imageUrl": "https://www.arkansas.com/sites/default/files/styles/image_component_large/public/paragraph/image/2018-08/Eureka%20Springs%202018-07%20KSJ_4603ps%20_%20bph9.jpg?itok=HvhT_Jnf",
             "Restaurant": "Ermilio's Italian Home Cooking Restaurant",
             "Bar": "Eureka Live Bar",
             "Hotel": "Cliff Cottage Inn",
@@ -84,7 +84,7 @@
         {
             "id": "city10",
             "cityName": "Aspen, Colorado",
-            "imageUrl": "https://www.colorado.com/sites/default/files/styles/1000x685/public/001_DowntownAspen.jpg?itok=fP84F9wm",
+            "imageUrl": "https://cdn.photos.sparkplatform.com/ags/20180817184007662248000000-o.jpg",
             "Restaurant": "Element 47 Restaurant",
             "Bar": "J-Bar",
             "Hotel": "The St. Regis Aspen Resort",

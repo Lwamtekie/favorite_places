@@ -1,35 +1,68 @@
-body {
+body{
     background-color: rgba(201, 76, 76, 0.3);
 
 };
 
+.list-group{
+    text-align: center;
+
+}
+.list-group-item{
+    background-color:papayawhip;
+    text-align: center;
+}
 
 
-.image{
-    
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    min-width: 1200px;
+h1{
+    font-size: 5rem;
+    text-align: -webkit-center;
+    font-style: italic;
+}
+img{
     height: 200px;
-    margin-top: 25px;
 }
 
-    .list-group{
-    text-align: center;
+.title{
+    font-optical-sizing: 8rem;
+    align-items: center;
+    font-style: italic;
 }
-.TouristAttraction{
-    text-align: center;
+.card-header{
+    justify-content: center
 }
-h1 {
-        font-size: 2.5rem;
-        text-align: -webkit-center;
-        font-style: italic;
+
+.place-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    min-width: 600px;
+    flex-grow: 0;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     }
 
-    .card-header {
-        padding: .75rem 1.25rem;
-        margin-bottom: 0;
-        align-items: center;
-    }
-    
+.col-4{
+    margin: 15px;
+    border: 1px solid BLACK;
+    box-shadow: 1px 2px 2px 1px;
+    padding: 0px;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5ppx;
+    margin-right: 5px;
+    max-width: 100%;
+    background-color: blanchedalmond;
+    align-content: center;
+} 
+
+.card{
+    background-color: papayawhip;
+}
+.flex-wrap{
+    justify-content: center;
+}
+
