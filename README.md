@@ -10,7 +10,8 @@ This project is called "place to visit" is different form the pervious assignmen
 
 # Technologies used: 
 
-index.html, main.css, main.js, json.data
+index.html, main.css, main.js, json.data(db)
+
 
 # Author :
  Lwam Tekie
