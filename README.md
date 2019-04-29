@@ -1,5 +1,7 @@
 Title: Places to visit 
-screen shot: url("https://github.com/Lwamtekie/favorite_places/blob/master/screenshots/Screen%20Shot%202019-04-27%20at%209.19.36%20AM.png");
+screen shot:![image](https://github.com/Lwamtekie/favorite_places/blob/master/screenshots/Screen%20Shot%202019-04-27%20at%209.19.36%20AM.png);
+
+
 
 technologies used: index.html, main.css, main.js, json.data
 
