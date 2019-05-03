@@ -1,8 +1,10 @@
-# Title: Places to visit 
+# Title: 
+
+ Places to visit 
 
 # Screen shot:
 
-![image](https://github.com/Lwamtekie/favorite_places/blob/master/screenshots/Screen%20Shot%202019-04-27%20at%209.19.36%20AM.png);
+![image of Places to visit](https://raw.githubusercontent.com/Lwamtekie/favorite_places/master/screenshots/Screen%20Shot%202019-04-27%20at%209.19.36%20AM.png)
 
 
 # About
