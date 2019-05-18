@@ -4,7 +4,7 @@
 
 # Screen shot:
 
-![image of Places to visit](https://raw.githubusercontent.com/Lwamtekie/favorite_places/master/screenshots/Screen%20Shot%202019-04-27%20at%209.19.36%20AM.png)
+![image of Places to visit]()
 
 
 # About
@@ -14,6 +14,11 @@ This project is called "place to visit" is different form the pervious assignmen
 
 index.html, main.css, main.js, json.data(db)
 
+#How to run:
+
+Clone this repository git clone https://github.com/Lwamtekie/favorite_places Go into the repository cd personal-site Run http server hs -p 5000
+
 
 # Author :
+ 
  Lwam Tekie
