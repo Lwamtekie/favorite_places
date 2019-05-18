@@ -4,7 +4,7 @@
 
 # Screen shot:
 
-![image of Places to visit]()
+![image of Places to visit](https://raw.githubusercontent.com/Lwamtekie/favorite_places/master/screenshots/screencapture-127-0-0-1-8083-2019-05-18-12_42_26.png)
 
 
 # About
